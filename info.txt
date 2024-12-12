@@ -1,0 +1,23 @@
+<script>
+export default {
+  data(){
+    return{
+      searchQuery:'',
+      selectedItem: null,
+      isVisible: false,
+      userArray: [],
+    };
+  },
+  computed: {
+    filteredUser() {
+      const query = this.searchQuery.toLowerCase();
+      if(this.searchQuery === "" ) {
+        return this.userArray; 
+      }
+      return this.userArray.filter((user) => {
+        return Object.values(user).some((word) => 
+          String(word).toLowerCase().includes(query)
+        );
+      });
+    },
+  },
