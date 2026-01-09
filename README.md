@@ -1,5 +1,20 @@
-# Vue 3 + Vite
+# Superhero Matcher
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Application Vue + Vite simple pour afficher et matcher super-héros et leurs super-pouvoirs.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Description
+
+Projet front-end léger construit avec Vite et Vue. Permet de parcourir une liste de super-héros et d'évaluer des correspondances de super-pouvoirs.
+
+## Technologies
+
+- Vite ([vite.config.js](vite.config.js))
+- Vue 3 ([src/App.vue](src/App.vue), [src/main.js](src/main.js), [src/router.js](src/router.js))
+
+## Installation
+
+```sh
+npm install -g pnpm
+pnpm --version
+pnpm run dev
+```
