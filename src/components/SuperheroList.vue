@@ -17,7 +17,7 @@ onMounted(() => {
       superheros.value = response.data; // Récupération des superhéros
     })
     .catch((error) => {
-      console.log(error); // Gestion d'erreur en cas de problème avec l'API
+      console.log(error);
     });
 });
 
