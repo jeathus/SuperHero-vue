@@ -18,3 +18,9 @@ npm install -g pnpm
 pnpm --version
 pnpm run dev
 ```
+
+## Déploiement
+
+```sh
+pnpm run build
+```
